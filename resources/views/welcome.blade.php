@@ -59,7 +59,7 @@
                 <!-- Signup btn -->
                 <div class="col-12 col-lg-2">
                     <div class="sing-up-button d-none d-lg-block">
-                        <a href="/ingresar">Ingresar</a>
+                        <a href="/login">Ingresar</a>
                     </div>
                 </div>
             </div>
