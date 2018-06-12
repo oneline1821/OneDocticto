@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Doctito</title>
+    <title>DSSO</title>
 
     <!-- Favicon -->
     <link rel="icon" href="/template/img/core-img/favicon.ico">
@@ -37,7 +37,8 @@
                     <div class="menu_area">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- Logo -->
-                            <a class="navbar-brand" href="#home">Doctito</a>
+                            <a class="navbar-brand" href="#home" style="font-size: 21px"> 
+                                <img src="/template/img/bg-img/logo-white.png" width="50" height="50"> &nbsp;&nbsp;DSSO</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                             <!-- Menu Area -->
                             <div class="collapse navbar-collapse" id="ca-navbar">
@@ -46,11 +47,10 @@
                                     <li class="nav-item"><a class="nav-link" href="#features">Servicios</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#screenshot">Aplicacion</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#pricing">Precios</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pricing">Ubicanos</a></li>
                                 </ul>
                                 <div class="sing-up-button d-lg-none">
-                                    <a href="#">Ingresar</a>
+                                    <a href="#contact">Contactanos</a>
                                 </div>
                             </div>
                         </nav>
@@ -58,8 +58,8 @@
                 </div>
                 <!-- Signup btn -->
                 <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                        <a href="/login">Ingresar</a>
+                    <div class="sing-up-button d-none d-lg-block" >
+                        <a href="#contact">Contactanos</a>
                     </div>
                 </div>
             </div>
@@ -73,49 +73,35 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md">
                     <div class="wellcome-heading">
-                        <h2>Colorlib app</h2>
-                        <h3>C</h3>
-                        <p>Everything You Need. To Start Selling Online Beautifully</p>
+                        <h2>DSSO</h2>
+                        <h3>D</h3>
+                        <p style="font-size: 21px">Departamento de Seguridad y Salud Ocupacional</p>
                     </div>
                     <div class="get-start-area">
                         <!-- Form Start -->
-                        <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="name@company.com">
-                            <input type="submit" class="submit" value="Get Started">
-                        </form>
+                        <div class="form-group">
+                            <textarea id="duda" cols="30" rows="4" class="form-control custom-input" placeholder="Escribenos tu consulta, duda o sugerencia."></textarea>
+                            <button class="submit bg-color-secundary" data-toggle="modal" data-target="#exampleModal">Consultar</button>
+                        </div>
                         <!-- Form End -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Welcome thumb -->
-        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
-            <img src="/template/img/bg-img/welcome-img.png" alt="">
-        </div>
     </section>
     <!-- ***** Wellcome Area End ***** -->
 
     <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_100" id="about">
+    <section class="special-area bg-grey" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Heading Area -->
-                    <div class="section-heading text-center">
-                        <h2>Why Is It Special</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
+            <div class="row section_padding_50">
                 <!-- Single Special Area -->
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
                         <div class="single-icon">
-                            <i class="ti-mobile" aria-hidden="true"></i>
+                            <i class="ti-timer" aria-hidden="true"></i>
                         </div>
-                        <h4>Easy to use</h4>
+                        <h4>Rapidez</h4>
                         <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
                     </div>
                 </div>
@@ -123,9 +109,9 @@
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
                         <div class="single-icon">
-                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                            <i class="ti-medall" aria-hidden="true"></i>
                         </div>
-                        <h4>Powerful Design</h4>
+                        <h4>Calidad</h4>
                         <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
                     </div>
                 </div>
@@ -133,16 +119,16 @@
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
                         <div class="single-icon">
-                            <i class="ti-settings" aria-hidden="true"></i>
+                            <i class="ti-heart" aria-hidden="true"></i>
                         </div>
-                        <h4>Customizability</h4>
+                        <h4>Comodidad</h4>
                         <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Special Description Area -->
-        <div class="special_description_area mt-150">
+        <div class="special_description_area section_padding_50" style="background-color: white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -152,8 +138,10 @@
                     </div>
                     <div class="col-lg-6 col-xl-5 ml-xl-auto">
                         <div class="special_description_content">
-                            <h2>Our Best Propositions for You!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Centro de Salud Ocupacional</h2>
+                            <p>El servicio de Salud Ocupacional contribuye a la identificación y al análisis de las condiciones que, dentro del ambiente de trabajo, pueden afectar a corto, mediano o largo plazo la salud de los trabajadores, ofreciendo estrategias de intervención y medidas preventivas para ejercer un mayor control sobre ellas.</p>
+                            <p>Asimismo, un adecuado Sistema de Gestión de Seguridad y Salud Ocupacional permite evitar la aparición de enfermedades ocupacionales y disminuir los índices de accidentabilidad, facilitando así un desempeño laboral óptimo a la vez que garantiza la salud y el bienestar de los trabajadores.</p>
+
                             <div class="app-download-area">
                                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                                     <!-- Google Store Btn -->
@@ -179,14 +167,13 @@
     <!-- ***** Special Area End ***** -->
 
     <!-- ***** Awesome Features Start ***** -->
-    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+    <section class="awesome-feature-area bg-grey section_padding_50 clearfix" id="features">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <!-- Heading Text -->
                     <div class="section-heading text-center">
-                        <h2>Nuestros servicios</h2>
-                        <div class="line-shape"></div>
+                        <div class="conteiner-header">Nuestros Servicios</div>
                     </div>
                 </div>
             </div>
@@ -194,67 +181,113 @@
             <div class="row">
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/auditiva.jpg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Audiometría</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-pulse" aria-hidden="true"></i>
-                        <h5>Fast and Simple</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/img-vision.jpg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Optometría</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-dashboard" aria-hidden="true"></i>
-                        <h5>Clean Code</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/visiometria.jpg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Visiometría</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-palette" aria-hidden="true"></i>
-                        <h5>Perfect Design</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/espirometria.jpg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Espirometría</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-crown" aria-hidden="true"></i>
-                        <h5>Best Industry Leader</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/Electrocardiograma.jpg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Electrocardiograma</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-headphone" aria-hidden="true"></i>
-                        <h5>24/7 Online Support</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/spicologia.jpg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Psicologia</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature bg-white-card" style="padding: 0px">
+                        <div class="row" style="margin: 0px">
+                            <div class="col-4 bg-blue" style="padding: 0px">
+                              <div class="img-call" style=" background-image: url(/template/img/bg-img/alt.jpeg)"></div> 
+                            </div>
+                            <div class="col-8 border-green">
+                                <h4 class="title-card">Trabajo en alturas</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
     <!-- ***** Awesome Features End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+    <section class="our-Team-area bg-white section_padding_50 clearfix" id="team">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Our Team</h2>
-                        <div class="line-shape"></div>
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <div class="conteiner-header">Nuestros Especialistas</div>
                     </div>
                 </div>
             </div>
@@ -341,7 +374,7 @@
     <!-- ***** Our Team Area End ***** -->
 
     <!-- ***** Cool Facts Area Start ***** -->
-    <section class="cool_facts_area clearfix">
+    <section class="cool_facts_area bg-green section_padding_50 clearfix">
         <div class="container">
             <div class="row">
                 <!-- Single Cool Fact-->
@@ -398,14 +431,12 @@
     <!-- ***** Cool Facts Area End ***** -->
 
     <!-- ***** App Screenshots Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+    <section class="app-screenshots-area bg-white section_padding_50 clearfix" id="screenshot">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Conoce nuestra Aplicación</h2>
-                        <div class="line-shape"></div>
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <div class="conteiner-header">Conoce Nuestra App</div>
                     </div>
                 </div>
             </div>
@@ -445,118 +476,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <!-- Heading Text  -->
+                    <!-- Heading Text -->
                     <div class="section-heading text-center">
-                        <h2>Elige el mejor precio</h2>
-                        <div class="line-shape"></div>
+                        <div class="conteiner-header">Encuentranos Aquí</div>
                     </div>
                 </div>
             </div>
-
-            <div class="row no-gutters">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Starter Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>29</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Basic Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>49</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan active text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Advenced Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>69</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Community Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>99</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="row no-gutters" id="map">
+                
             </div>
         </div>
     </section>
     <!-- ***** Pricing Plane Area End ***** -->
 
     <!-- ***** CTA Area Start ***** -->
-    <section class="our-monthly-membership section_padding_50 clearfix">
+    <section class="our-monthly-membership section_padding_50 bg-color-primary clearfix">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
@@ -567,7 +501,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                        <a href="#">Get Started</a>
+                        <a href="#">¡ Suscribete !</a>
                     </div>
                 </div>
             </div>
@@ -586,16 +520,16 @@
                         <div class="line-shape"></div>
                     </div>
                     <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                        <p>Le enviaremos blogs semanales épicos, libros blancos y cosas para que su aplicación empiece a prosperar, ¡todo GRATIS!</p>
                     </div>
                     <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                        <p><span>Dirección:</span> 140, Hortencias, Ica, Ica</p>
                     </div>
                     <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
+                        <p><span>Telefono:</span> (056) 233820 </p>
                     </div>
                     <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
+                        <p><span>Correo:</span> info.deercreative@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -608,24 +542,24 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Correo" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="¿ Que te gustaria saber de nosotros ?" required></textarea>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
+                                        <button type="submit" class="btn submit-btn">Enviar</button>
                                     </div>
                                 </div>
                             </div>
@@ -642,32 +576,64 @@
     <footer class="footer-social-icon text-center section_padding_70 clearfix">
         <!-- footer logo -->
         <div class="footer-text">
-            <h2>Ca.</h2>
+            <center>
+                <img src="/template/img/bg-img/logo-original.jpeg" alt="logo DSSS" width="82" height="82">
+            </center>
+            <h4 class="c-blue" style="font-weight: 600">DSSO</h4>
+            
         </div>
         <!-- social icon-->
         <div class="footer-social-icon">
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
         </div>
         <div class="footer-menu">
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Terminos y Condiciones</a></li>
+                    <li><a href="#">Politicas de Privacidad</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
         </div>
-        <!-- Foooter Text-->
         <div class="copyright-text">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <p>Copyright ©2018 DSSO</p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> ¡ Felicitaciones ! </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"><br>
+            Recibiremos tu consulta. Ahora solo debes ingresar estos datos para poder responderte los mas pronto posible.
+            <br><br>
+            <div class="row">
+                <div class="col">
+                  <input type="email" class="form-control" placeholder="Email. ejemplo@gmail.com">
+                </div>
+                <div class="col">
+                  <input type="tel" class="form-control" placeholder="Telefono o Movil">
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Jquery-2.2.4 JS -->
     <script src="/template/js/jquery-2.2.4.min.js"></script>
@@ -683,6 +649,260 @@
     <script src="/template/js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="/template/js/active.js"></script>
+    <script>
+        
+    </script>
+    <script>
+        var imagen = '/template/img/core-img/marker.png'
+        var estilo = [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#ebe3cd"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#523735"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#f5f1e6"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative",
+            "elementType": "geometry.stroke",
+            "stylers": [
+              {
+                "color": "#c9b2a6"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.land_parcel",
+            "elementType": "geometry.stroke",
+            "stylers": [
+              {
+                "color": "#dcd2be"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.land_parcel",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#ae9e90"
+              }
+            ]
+          },
+          {
+            "featureType": "landscape.natural",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#dfd2ae"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#dfd2ae"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#93817c"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.business",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "geometry.fill",
+            "stylers": [
+              {
+                "color": "#a5b076"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#447530"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#f5f1e6"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#fdfcf8"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#f8c967"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry.stroke",
+            "stylers": [
+              {
+                "color": "#e9bc62"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#e98d58"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "geometry.stroke",
+            "stylers": [
+              {
+                "color": "#db8555"
+              }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#806b63"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#dfd2ae"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#8f7d77"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#ebe3cd"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#dfd2ae"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "geometry.fill",
+            "stylers": [
+              {
+                "color": "#b9d3c2"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#92998d"
+              }
+            ]
+          }
+        ]
+        function initMap() {
+            var uluru = {lat: -14.0766037, lng: -75.727354};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 16,
+              center: uluru,
+              styles: estilo
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map,
+              icon:imagen
+            });
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBVpZAAUL1n-tOzlo6p_IxssgJ6enzjpk&callback=initMap">
+    </script>
 </body>
 
 </html>

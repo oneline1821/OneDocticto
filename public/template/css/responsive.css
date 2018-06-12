@@ -1,15 +1,12 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .menu_area .navbar-brand {
-        font-size: 42px;
+        font-size: 24px;
     }
     .menu_area #nav .nav-link {
         padding: 35px 7.5px;
     }
     .sing-up-button > a {
         color: #fff;
-        height: 40px;
-        min-width: 152px;
-        line-height: 36px;
         font-size: 14px;
     }
     .welcome-thumb {
@@ -33,7 +30,7 @@
         padding: 0;
     }
     .menu_area .navbar-brand {
-        font-size: 48px;
+        font-size: 24px;
     }
     .header_area.sticky {
         height: 50px;
@@ -115,7 +112,7 @@
         padding: 0;
     }
     .menu_area .navbar-brand {
-        font-size: 48px;
+        font-size: 25px;
     }
     .header_area.sticky {
         height: 50px;
@@ -127,7 +124,7 @@
     #ca-navbar {
         padding: 20px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #0d47a1 ;
         text-align: left;
     }
     .sing-up-button {
@@ -213,7 +210,7 @@
         margin-top: 30px;
     }
     .wellcome-heading > h3 {
-        font-size: 252px;
+        font-size: 180px;
         top: -105px;
         left: -1px;
     }
@@ -228,7 +225,7 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
-        font-size: 284px;
+        font-size: 180px;
     }
     .wellcome-heading > h2 {
         font-size: 70px;
@@ -250,7 +247,7 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .wellcome-heading > h3 {
-        font-size: 286px;
+        font-size: 200px;
     }
     .get-start-area .email {
         margin-bottom: 0;
