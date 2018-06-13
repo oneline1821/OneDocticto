@@ -18,6 +18,9 @@ return [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
     ],
+    'mandrill' => [
+        'secret' => 'JAVkhj2WRFdor3jIh71mpg',
+    ],
 
     'ses' => [
         'key' => env('SES_KEY'),
