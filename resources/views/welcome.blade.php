@@ -38,7 +38,7 @@
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- Logo -->
                             <a class="navbar-brand" href="#home" style="font-size: 21px"> 
-                                <img src="/template/img/bg-img/logo-white.png" width="50" height="50"> &nbsp;&nbsp;DSSO</a>
+                                <img src="/template/img/bg-img/logo-white.png" width="50" height="50"> &nbsp;&nbsp;D-SSO</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                             <!-- Menu Area -->
                             <div class="collapse navbar-collapse" id="ca-navbar">
@@ -73,7 +73,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md">
                     <div class="wellcome-heading">
-                        <h2>DSSO</h2>
+                        <h2>D-SSO</h2>
                         <h3>D</h3>
                         <p style="font-size: 21px">Departamento de Seguridad y Salud Ocupacional</p>
                     </div>
@@ -651,6 +651,7 @@
     <script src="/template/js/active.js"></script>
     <script>
         function sendMail(){
+            console.log( 'token es:' + '{{ csrf_token() }}')
             var dataPost = {
                 telefono: $('#telefono').val(),
                 email:$('#correo').val(),
@@ -661,7 +662,7 @@
             $.ajax({
                type: 'POST', 
                url: '/addMail',
-               headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+               headers: {'X-CSRF-TOKEN': '{{ csrf_token() }}'},
                data: dataPost,
                success: function(response) {
                   console.log(response);

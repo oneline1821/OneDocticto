@@ -11,14 +11,18 @@ class PageMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $content;
+    public $subject;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($content,$subject)
     {
-        //
+        $this->content = $content;
+        $this->subject = $subject;
     }
 
     /**
@@ -28,6 +32,8 @@ class PageMail extends Mailable
      */
     public function build()
     {
-        return $this->view('email.pageMail')->from('kiramauco@gmail.com')
+        return $this->view('email.pageMail')
+                    ->subject($this->subject)
+                    ->from('oneline1821@gmail.com');
     }
 }
