@@ -620,16 +620,16 @@
             <br><br>
             <div class="row">
                 <div class="col">
-                  <input type="email" class="form-control" placeholder="Email. ejemplo@gmail.com">
+                  <input type="email" id="correo" class="form-control" placeholder="Email. ejemplo@gmail.com">
                 </div>
                 <div class="col">
-                  <input type="tel" class="form-control" placeholder="Telefono o Movil">
+                  <input type="tel" id="telefono" class="form-control" placeholder="Telefono o Movil">
                 </div>
             </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-primary" onclick="sendMail()">Enviar</button>
           </div>
         </div>
       </div>
@@ -650,7 +650,24 @@
     <!-- Active JS -->
     <script src="/template/js/active.js"></script>
     <script>
-        
+        function sendMail(){
+            var dataPost = {
+                telefono: $('#telefono').val(),
+                email:$('#correo').val(),
+                msj:$('#duda').val()
+            }
+            var dataString = JSON.stringify(dataPost);
+
+            $.ajax({
+               type: 'POST', 
+               url: '/addMail',
+               headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+               data: dataPost,
+               success: function(response) {
+                  console.log(response);
+               }
+            });
+        }
     </script>
     <script>
         var imagen = '/template/img/core-img/marker.png'
