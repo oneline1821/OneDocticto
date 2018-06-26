@@ -11,6 +11,9 @@
     <!-- Title -->
     <title>DSSO</title>
 
+    <!-- Iconos -->
+    <link rel="stylesheet" href="/template/css/themify-icons.css">
+    
     <!-- Favicon -->
     <link rel="icon" href="/template/img/core-img/favicon.ico">
 
@@ -19,6 +22,8 @@
 
     <!-- Responsive CSS -->
     <link href="/template/css/responsive.css" rel="stylesheet">
+
+  
 
 </head>
 
@@ -74,7 +79,7 @@
         <!-- footer logo -->
         <div class="footer-text">
             <center>
-                <img src="/template/img/bg-img/logo-original.jpeg" alt="logo DSSS" width="82" height="82">
+                <img src="/template/img/bg-img/logosf.png" alt="logo DSSS" width="82" height="82">
             </center>
             <h4 class="c-blue" style="font-weight: 600">D-SSO</h4>
             

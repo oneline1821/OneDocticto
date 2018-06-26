@@ -5,16 +5,45 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Panel de Cotrol</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                <div class="card-body row">
+                    <div class="col-md-4 col-6">
+                        <a href="/doctores" class="menuItem">
+                            <i class="ti ti-headphone-alt"></i><br>
+                            <span>Citas</span>    
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <a href="/doctores" class="menuItem">
+                            <i class="ti ti-user"></i><br>
+                            <span>Doctores</span> 
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <a href="/doctores" class="menuItem">
+                            <i class="ti ti-user"></i><br>
+                            <span>Especialidades</span> 
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <a href="/doctores" class="menuItem">
+                            <i class="ti ti-user"></i><br>
+                            <span>Dcotores</span> 
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <a href="/doctores" class="menuItem">
+                            <i class="ti ti-user"></i><br>
+                            <span>Pacientes</span> 
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <a href="/doctores" class="menuItem">
+                            <i class="ti ti-user"></i><br>
+                            <span>Dcotores</span> 
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
