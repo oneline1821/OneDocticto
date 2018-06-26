@@ -8,5 +8,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('Especialidades/{name}', 'SpecialtyController@page')->name('especialidad');
 
 Route::post('/addMail','EmailsController@sendMail');

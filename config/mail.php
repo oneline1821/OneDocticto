@@ -15,7 +15,7 @@ return [
     |            "sparkpost", "log", "array"
     |
     */
-    'driver' => 'mandrill',
+    'driver' => env('MAIL_DRIVER', 'smtp'),
 
     //'driver' => env('MAIL_DRIVER', 'smtp'),
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mandrillapp.com'),
+    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
 
     /*
     |--------------------------------------------------------------------------
@@ -57,8 +57,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'oneline1821@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'victor ap'),
+        'address' => env('MAIL_FROM_ADDRESS', 'developer@doctito.com'),
+        'name' => env('MAIL_FROM_NAME', 'Doctito '),
     ],
 
     /*
@@ -120,5 +120,13 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
+    'pretend' => false,
+    'stream' => [
+        'ssl' => [
+           'allow_self_signed' => true,
+           'verify_peer' => false,
+           'verify_peer_name' => false,
+        ],
+     ],
 
 ];
